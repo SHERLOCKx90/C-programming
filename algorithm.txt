@@ -1,0 +1,19 @@
+l=2 
+b=3
+h=4
+vol of cuboid= (l*b*h)
+vol of cube=(l*b*h)
+vol of sphere= 4 pi r2
+vol of cylinder = pi r2 h
+vol of cone= 1/3 pi r2 h
+
+
+algorithm
+
+see that in each of the volume formulas , first if the volume is divisible by h , then it may be a cone, cylinder , cube  or cuboid.
+But if not divided, it means the vol is being calculated for sphere.
+//first import maths module to use pi value
+if(vol % h == 0){
+     if (vol % pi){
+    }
+}
